@@ -13,7 +13,7 @@ import model.User;
 public class UserDAO {
 	private String jdbcURL = "jdbc:mysql://localhost:3306/demo?useSSL=false";
 	private String jdbcUsername = "root";
-	private String jdbcPassword = "Dulneth20021221";
+	private String jdbcPassword = "";
 
 	private static final String INSERT_USERS_SQL = "INSERT INTO users" + "  (name, email, address, phone, vehicle, dob, username, password ) VALUES "
 			+ " (?, ?, ?, ?, ?, ?, ?, ?);";
